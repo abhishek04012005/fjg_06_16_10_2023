@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formPage {
+    margin-top: 5vh;
+    max-width: 100vh;
+    max-height: 200vh;
+    box-shadow: 0 0 4px 1px grey;
+    border-radius: 10px;
+    padding: 4em;
+    background-color: white;
+}
+
+
+
+input[type=text],
+[type=password],
+[type=tel],
+[type=email] {
+    width: 50vh;
+    display: block;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    transition: 0.5s;
+    margin: 35px 0;
+
+}
+
+#add {
+    width: 50vh;
+    height: 10vh;
+}
+
+
+input:focus {
+    color: black;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+input:focus {
+    color: black;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+
+input:focus::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+    font-size: 15px;
+
+}
+
+
+
+.centerE {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#signIN {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 5px;
+    background-color: cadetblue;
+    font-size: 1rem;
+    border: none;
+}
+
+
+
+#signUP {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 1rem;
+    border: 2px solid cadetblue;
+
+}
+
+#aligning {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+table {
+    width: 100vh;
+    height: 60vh;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+td {
+
+    text-indent: 5%;
+
+}
+
+
+
+
+@media screen and (max-width: 682px) {
+
+    input[type=text],
+    [type=password],
+    [type=email],
+    [type=tel] {
+        width: 35vh;
+    }
+
+    .formPage {
+        padding: 3rem;
+        display: block;
+    }
+
+   
+
+    #aligning {
+        font-size: 0.8rem;
+
+    }
+
+    #add {
+        width: 30vh;
+        height: 10vh;
+    }
+
+    body {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    table {
+        width: 35vh;
+        height: 30vh;
+        border-collapse: collapse;
+        margin-bottom: 1em;
+    }
+
+}

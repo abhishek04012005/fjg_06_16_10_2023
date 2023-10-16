@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <div class="paddi">
+                <h1>Create Invoice</h1>
+                <hr>
+                <br>
+                <p style="font-size: 30px;">Invoice Details</p>
+            </div>
+            <form action="./index.html">
+                <div class="form">
+                    <div class="input1">
+                        <label for="billVendor">Bill Vendor<span>*</span></label>
+                        <br>
+                        <br>
+                        <select name="" id="billVendor" size="" required>
+                            <option value="">Select Vendor</option>
+                            <option value="">Test456</option>
+                            <option value="">Test789</option>
+                        </select>
+
+                    </div>
+
+                    <div class="input2">
+                        <label for="billVoiceInvoice">Bill Invoice Type<span>*</span></label>
+                        <br>
+                        <br>
+                        <select name="" id="billVoiceInvoice" required>
+                            <option value="">Select Bill Invoice Type</option>
+                            <option value="">Test901</option>
+                            <option value="">Test234</option>
+                        </select>
+
+
+                    </div>
+
+                    <div class="input3">
+                        <label for="description">Description<span>*</span></label>
+                        <br>
+                        <br>
+                        <input type="text" id="description" size="" required>
+
+                    </div>
+
+                    <div class="input4">
+                        <label for="poNumber">PO Number<span>*</span></label>
+                        <br>
+                        <br>
+                        <input type="text" id="poNumber" required>
+
+                    </div>
+
+                    <div class="input5">
+                        <label for="HSN">HSN Code<span>*</span></label>
+                        <br>
+                        <br>
+                        <input type="text" id="HSN" required>
+
+                    </div>
+
+                    <div class="input6">
+                        <label for="date">Due Date<span>*</span></label>
+                        <br>
+                        <br>
+                        <input type="date" id="date" required>
+
+                    </div>
+
+                    <div class="input7">
+                        <label for="invoiceNo">Invoice No<span>*</span></label>
+                        <br>
+                        <br>
+                        <input type="text" id="invoiceNo" required>
+                        <br>
+                    </div>
+
+                    <div class="input8">
+                        <label for="chooseFile">Upload Invoice</label>
+                        <br>
+                        <br>
+                        <input type="file" id="chooseFile" required>
+                    </div>
+
+
+                    <div class="paddi">
+                        <p style="font-size: 30px;">Invoice Calculation Detail</p>
+                    </div>
+
+                    <div></div>
+
+                    <div class="input8">
+                        <label for="invoiceNo">Invoice Amount<span>*</span></label>
+                        <br>
+                        <br>
+                        <input type="text" id="invoiceNo" placeholder="₹" required>
+                        <br>
+                    </div>
+
+
+                    <div class="input9">
+                        <label for="invoiceNo">CGST<span>*</span></label>
+                        <br>
+                        <br>
+                        <input type="text" id="invoiceNo" placeholder="%" required>
+                        <br>
+                    </div>
+
+
+                    <div class="input10">
+                        <label for="invoiceNo">SGST<span>*</span></label>
+                        <br>
+                        <br>
+                        <input type="text" id="invoiceNo" placeholder="%" required>
+                        <br>
+                    </div>
+
+
+                    <div class="input11">
+                        <label for="invoiceNo">IGST<span>*</span></label>
+                        <br>
+                        <br>
+                        <input type="text" id="invoiceNo" placeholder="%" required>
+                        <br>
+                    </div>
+
+
+                    <div class="input12">
+                        <label for="invoiceNo">TDS<span>*</span></label>
+                        <br>
+                        <br>
+                        <input type="text" id="invoiceNo" placeholder="%" required>
+                        <br>
+                    </div>
+
+
+                    <div class="input13">
+                        <label for="invoiceNo">Total Amount<span>*</span></label>
+                        <br>
+                        <br>
+                        <input type="text" id="invoiceNo" placeholder="₹" required>
+                        <br>
+                    </div>
+
+                    <div id="makeBtn">
+                        <a href="./addVendor.html" id="make">Add Vendor</a>
+                    </div>
+
+                    <!-- <div></div> -->
+                    <div>
+                        <button id="btn1">Reset</button>
+                        <button id="btn">Create Invoice</button>
+                    </div>
+                </div>
+            </form>
+            
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
