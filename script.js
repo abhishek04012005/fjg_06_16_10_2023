@@ -20,7 +20,7 @@ var database = firebase.database()
 function handleMe() {
 
     console.log("I'm Clicked and Saved")
-    alert("I am saved");
+    alert("Successfully Saved!");
     var userName = document.getElementById('userName').value;
     var pwd = document.getElementById('pwd').value;
     // var password = document.getElementById('password').value;
