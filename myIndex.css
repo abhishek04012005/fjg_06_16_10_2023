@@ -81,6 +81,15 @@ input:focus::placeholder {
     border: none;
 }
 
+#styleMe {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 5px;
+    color: rgb(98, 98, 247);
+    font-size: 1rem;
+    border: 1px solid rgb(98, 98, 247);
+    background-color: white;
+}
 
 
 #signUP {
