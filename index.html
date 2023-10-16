@@ -13,30 +13,29 @@
 <body>
     <div class="formPage">
 
-        
-            <h1>Login</h1>
-            <hr>
-            <input type="text" placeholder="Username" required>
 
-            <input type="password" placeholder="Password" required>
-            <div id="aligning">
-               
+        <h1>Login</h1>
+        <hr>
+        <input type="text" placeholder="Username" id="userName" required>
+
+        <input type="password" placeholder="Password" id="pwd" required>
+        <div id="aligning">
+
 
             <br>
 
-      
-        <div class="centerE">
 
-            <a href="./formSetUp.html" ><button id="signIN">Sign In</button></a>
-<button onclick="handleMe()" id="styleMe">Save Data</button>
+            <div class="centerE">
+
+                <a href="./formSetUp.html"><button onclick="handleMe()" id="signIN">Sign In</button></a>
+
+                <button onclick="handleMe()" id="styleMe">Save Data</button>
+            </div>
+
+
         </div>
-      
 
-    </div>
-
-
-
- <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
 
         <script src="./script.js"></script>
